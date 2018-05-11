@@ -1,0 +1,30 @@
+<div class="editbox">
+
+  <h2>Editing Book</h2>
+
+   <%= form_for(@book) do |f| %>
+
+   <h4>Title</h4>
+   <%= f.text_field :title %>
+
+   <h4>Body</h4>
+   <%= f.text_area :body %>
+
+   <p><%= f.submit 'Update book' %></p>
+
+</div>
+
+<div class="command creafix">
+
+  <p class="editcommand">
+  <%= link_to "Show", book_path(@book.id)%>
+  </p>
+  <p class="editcommand">
+  |
+  </p>
+  <p class="editcommand">
+  <%= link_to "Back", books_path %>
+  </p>
+  <% end %>
+
+ </div>

@@ -1,0 +1,27 @@
+
+
+<%= flash[:notice] %>
+<div class="showbox clearfix">
+  <p class="showtext"><span class="strong">Title：
+  </span>
+  </p>
+   <p>
+   <%= @show.title %>
+   </p>
+   <br>
+   <p class="showtext"><span class="strong">Body：
+   </span>
+   </p>
+   <p class=""><%= @show.body %>
+   </p>
+</div>
+
+<div class="command clearfix">
+ <p class="showcommand">
+ <%= link_to "Edit", edit_book_path(@show.id) %>
+ </p>
+ <p class="showcommand">｜
+ </p>
+ <p class="showcommand"><%= link_to "Back", books_path %>
+ </p>
+</div>
