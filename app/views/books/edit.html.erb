@@ -8,17 +8,23 @@
    <%= f.text_field :title %>
 
    <h4>Body</h4>
-   <%= f.text_area :body %><br />
+   <%= f.text_area :body %>
 
-   <%= f.submit 'Update book',class: 'btn btn-info' %>
-  <% end %>
+   <p><%= f.submit 'Update book' %></p>
 
 </div>
 
-  <div class="command creafix">
+<div class="command creafix">
 
   <p class="editcommand">
-  <%= link_to "Back", book_path(@book.id)%>
+  <%= link_to "Show", book_path(@book.id)%>
   </p>
+  <p class="editcommand">
+  |
+  </p>
+  <p class="editcommand">
+  <%= link_to "Back", books_path %>
+  </p>
+  <% end %>
 
  </div>
