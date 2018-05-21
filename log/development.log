@@ -1,0 +1,853 @@
+Started GET "/" for 10.0.2.2 at 2018-05-21 10:17:23 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (5.1.6) lib/active_record/migration.rb:576:in `check_pending!'
+activerecord (5.1.6) lib/active_record/migration.rb:553:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.6) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.6) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:22:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 10.0.2.2 at 2018-05-21 10:19:51 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (5.1.6) lib/active_record/migration.rb:576:in `check_pending!'
+activerecord (5.1.6) lib/active_record/migration.rb:553:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.6) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.6) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:22:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/books" for 10.0.2.2 at 2018-05-21 10:19:56 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (5.1.6) lib/active_record/migration.rb:576:in `check_pending!'
+activerecord (5.1.6) lib/active_record/migration.rb:553:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.6) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.6) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:22:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (22.6ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (10.1ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateBooks (20180509115450)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (5.4ms)[0m  [1m[35mCREATE TABLE "books" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar, "body" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35mSQL (1.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20180509115450"]]
+  [1m[35m (3.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (3.0ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (7.2ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2018-05-21 10:20:49.689416"], ["updated_at", "2018-05-21 10:20:49.689416"]]
+  [1m[35m (4.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (3.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/books" for 10.0.2.2 at 2018-05-21 10:21:13 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (2.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (1.6ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  Rendered books/index.html.erb within layouts/application (67.1ms)
+Completed 200 OK in 1816ms (Views: 1713.5ms | ActiveRecord: 9.7ms)
+
+
+Started GET "/" for 10.0.2.2 at 2018-05-21 10:21:19 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#top as HTML
+  Rendering books/top.html.erb within layouts/application
+  Rendered books/top.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 224ms (Views: 191.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/style.css" for 10.0.2.2 at 2018-05-21 10:21:20 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActionController::RoutingError (No route matches [GET] "/style.css"):
+  
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:22:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/books" for 10.0.2.2 at 2018-05-21 10:21:21 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (1.4ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  Rendered books/index.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 239ms (Views: 202.6ms | ActiveRecord: 3.9ms)
+
+
+Started POST "/books" for 10.0.2.2 at 2018-05-21 10:21:38 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"fNi2qDkK9DEDOwjrBS2novnV7qXReuh8aXPjnv6hfGmPlryk34HKgXCGTlt6lMDAc+U89/bqQWV4N7gJ8xFfeA==", "book"=>{"title"=>"ああああああ", "body"=>"ああああああああああ\r\n"}, "commit"=>"Create book"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (6.1ms)[0m  [1m[32mINSERT INTO "books" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "ああああああ"], ["body", "ああああああああああ\r\n"], ["created_at", "2018-05-21 10:21:38.191336"], ["updated_at", "2018-05-21 10:21:38.191336"]]
+  [1m[35m (3.9ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/books/1
+Completed 302 Found in 24ms (ActiveRecord: 10.1ms)
+
+
+Started GET "/books/1" for 10.0.2.2 at 2018-05-21 10:21:38 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (3.4ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering books/show.html.erb within layouts/application
+  Rendered books/show.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 309ms (Views: 243.3ms | ActiveRecord: 3.4ms)
+
+
+Started GET "/books" for 10.0.2.2 at 2018-05-21 10:21:40 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (2.7ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  Rendered books/index.html.erb within layouts/application (10.4ms)
+Completed 200 OK in 258ms (Views: 221.2ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/books/1/edit" for 10.0.2.2 at 2018-05-21 10:21:53 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (2.6ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering books/edit.html.erb within layouts/application
+  Rendered books/edit.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 268ms (Views: 230.7ms | ActiveRecord: 2.6ms)
+
+
+Started PATCH "/books/1" for 10.0.2.2 at 2018-05-21 10:21:57 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"u5/iMYAvGLKdJn3uAGCEoTPf/0WrMc9xJ0n0EWMK6shruqkSZzAnkZAD4SlxxjzGxqz97Tz8T+UIgNm/+BEQ1A==", "book"=>{"title"=>"ああああああ", "body"=>"あああああああああ\r\n"}, "commit"=>"Update book", "id"=>"1"}
+  [1m[36mBook Load (3.0ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (6.9ms)[0m  [1m[33mUPDATE "books" SET "body" = ?, "updated_at" = ? WHERE "books"."id" = ?[0m  [["body", "あああああああああ\r\n"], ["updated_at", "2018-05-21 10:21:57.302343"], ["id", 1]]
+  [1m[35m (3.4ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/books/1
+Completed 302 Found in 28ms (ActiveRecord: 13.4ms)
+
+
+Started GET "/books/1" for 10.0.2.2 at 2018-05-21 10:21:57 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (2.2ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering books/show.html.erb within layouts/application
+  Rendered books/show.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 272ms (Views: 232.1ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/books" for 10.0.2.2 at 2018-05-21 10:22:58 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (2.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (1.4ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  Rendered books/index.html.erb within layouts/application (66.9ms)
+Completed 200 OK in 958ms (Views: 860.1ms | ActiveRecord: 10.1ms)
+
+
+Started POST "/books" for 10.0.2.2 at 2018-05-21 10:23:05 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"H29T03fy2BbaxEX7o+LK+FhpQFu8QvW2cGDewAcQQuLsIVnfkXnmpql5A0vcW62a0lmSCZvSXK9hJIVXCqBh8w==", "book"=>{"title"=>"wwwwwwww", "body"=>"wwwwwwwwww"}, "commit"=>"Create book"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (10.1ms)[0m  [1m[32mINSERT INTO "books" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "wwwwwwww"], ["body", "wwwwwwwwww"], ["created_at", "2018-05-21 10:23:05.348400"], ["updated_at", "2018-05-21 10:23:05.348400"]]
+  [1m[35m (3.6ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/books/2
+Completed 302 Found in 33ms (ActiveRecord: 16.1ms)
+
+
+Started GET "/books/2" for 10.0.2.2 at 2018-05-21 10:23:05 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mBook Load (2.7ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering books/show.html.erb within layouts/application
+  Rendered books/show.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 275ms (Views: 230.4ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/books" for 10.0.2.2 at 2018-05-21 10:23:06 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (1.9ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  Rendered books/index.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 255ms (Views: 215.6ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/books/2/edit" for 10.0.2.2 at 2018-05-21 10:23:09 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mBook Load (1.9ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering books/edit.html.erb within layouts/application
+  Rendered books/edit.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 264ms (Views: 225.4ms | ActiveRecord: 1.9ms)
+
+
+Started PATCH "/books/2" for 10.0.2.2 at 2018-05-21 10:23:12 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Gy0E6uLz8NXCnI1K7BHqHaxOpu7KShs/RM9f4FSvK2DgL6CJZqQielcDzvUjEf7K0VNkQJ8ymqmHp5mNW2BwvA==", "book"=>{"title"=>"wwwwwwww", "body"=>"wwwwwwww"}, "commit"=>"Update book", "id"=>"2"}
+  [1m[36mBook Load (2.1ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (7.1ms)[0m  [1m[33mUPDATE "books" SET "body" = ?, "updated_at" = ? WHERE "books"."id" = ?[0m  [["body", "wwwwwwww"], ["updated_at", "2018-05-21 10:23:12.378380"], ["id", 2]]
+  [1m[35m (3.6ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/books/2
+Completed 302 Found in 30ms (ActiveRecord: 12.9ms)
+
+
+Started GET "/books/2" for 10.0.2.2 at 2018-05-21 10:23:12 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mBook Load (1.7ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering books/show.html.erb within layouts/application
+  Rendered books/show.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 313ms (Views: 282.4ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/books" for 10.0.2.2 at 2018-05-21 10:23:14 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (2.2ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  Rendered books/index.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 258ms (Views: 224.8ms | ActiveRecord: 2.2ms)
+
+
+Started POST "/books" for 10.0.2.2 at 2018-05-21 10:23:21 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DCohqYYgzmeQRY28/Y0F1KMpjQLcSnSuNqTgVTWv+h7/ZCulYKvw1+P4ywyCNGK2KRlfUPva3bcn4LvCOB/ZDw==", "book"=>{"title"=>"", "body"=>""}, "commit"=>"Create book"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (5.4ms)[0m  [1m[32mINSERT INTO "books" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", ""], ["body", ""], ["created_at", "2018-05-21 10:23:21.835289"], ["updated_at", "2018-05-21 10:23:21.835289"]]
+  [1m[35m (13.7ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/books/3
+Completed 302 Found in 32ms (ActiveRecord: 19.2ms)
+
+
+Started GET "/books/3" for 10.0.2.2 at 2018-05-21 10:23:21 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mBook Load (2.4ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering books/show.html.erb within layouts/application
+  Rendered books/show.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 287ms (Views: 249.6ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/books" for 10.0.2.2 at 2018-05-21 10:23:23 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (1.6ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  Rendered books/index.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 246ms (Views: 205.7ms | ActiveRecord: 1.6ms)
+
+
+Started DELETE "/books/3" for 10.0.2.2 at 2018-05-21 10:23:26 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#destroy as HTML
+  Parameters: {"authenticity_token"=>"xgmlTOj1OkfTm3bD3qXjIDutiO1oPphmmrCNr8XcQnquiKS/vyG87nYB4wmrjE46QU+t2slU/RoaFGMb6s9zFA==", "id"=>"3"}
+  [1m[36mBook Load (1.9ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (6.4ms)[0m  [1m[31mDELETE FROM "books" WHERE "books"."id" = ?[0m  [["id", 3]]
+  [1m[35m (3.7ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/books
+Completed 302 Found in 23ms (ActiveRecord: 12.1ms)
+
+
+Started GET "/books" for 10.0.2.2 at 2018-05-21 10:23:26 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (2.6ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  Rendered books/index.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 281ms (Views: 238.6ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/" for 10.0.2.2 at 2018-05-21 10:28:50 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by BooksController#top as HTML
+  Rendering books/top.html.erb within layouts/application
+  Rendered books/top.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 659ms (Views: 623.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/style.css" for 10.0.2.2 at 2018-05-21 10:28:52 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActionController::RoutingError (No route matches [GET] "/style.css"):
+  
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:22:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/books" for 10.0.2.2 at 2018-05-21 10:28:53 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+Completed 500 Internal Server Error in 30ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/vagrant/bookers/app/models/book.rb:2: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+	validates :title, :body presence: true
+	                                ^):
+  
+app/models/book.rb:2: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+app/controllers/books_controller.rb:4:in `index'
+Started GET "/books" for 10.0.2.2 at 2018-05-21 10:29:30 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (2.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (2.6ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  Rendered books/index.html.erb within layouts/application (68.2ms)
+Completed 200 OK in 864ms (Views: 776.6ms | ActiveRecord: 12.9ms)
+
+
+Started POST "/books" for 10.0.2.2 at 2018-05-21 10:29:36 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NmpgB1HNnyhBla5JoLR7RgZ0Q0OSCQ1QkQfPomV+plVe62H0BhkZgeQPO4PVndZcfJZmdDNjaCwRoyEWSm2XOw==", "book"=>{"title"=>"", "body"=>"aaa"}, "commit"=>"Create book"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Completed 500 Internal Server Error in 36ms (ActiveRecord: 2.6ms)
+
+
+  
+ActionController::UrlGenerationError (No route matches {:action=>"show", :controller=>"books", :id=>nil}, missing required keys: [:id]):
+  
+app/controllers/books_controller.rb:32:in `create'
+Started POST "/books" for 10.0.2.2 at 2018-05-21 10:29:43 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NmpgB1HNnyhBla5JoLR7RgZ0Q0OSCQ1QkQfPomV+plVe62H0BhkZgeQPO4PVndZcfJZmdDNjaCwRoyEWSm2XOw==", "book"=>{"title"=>"aaa", "body"=>"aaa"}, "commit"=>"Create book"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (7.6ms)[0m  [1m[32mINSERT INTO "books" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "aaa"], ["body", "aaa"], ["created_at", "2018-05-21 10:29:44.016021"], ["updated_at", "2018-05-21 10:29:44.016021"]]
+  [1m[35m (4.0ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/books/4
+Completed 302 Found in 29ms (ActiveRecord: 11.7ms)
+
+
+Started GET "/books/4" for 10.0.2.2 at 2018-05-21 10:29:44 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mBook Load (2.6ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering books/show.html.erb within layouts/application
+  Rendered books/show.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 280ms (Views: 240.2ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/books" for 10.0.2.2 at 2018-05-21 10:29:46 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (2.3ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  Rendered books/index.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 257ms (Views: 217.5ms | ActiveRecord: 2.3ms)
+
+
+Started POST "/books" for 10.0.2.2 at 2018-05-21 10:29:53 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9CLqLF3cMQ55KL9leWO7N8tgsnGQEMw9ZKkLakaAOBMHbOAgu1cPvgqV+dUG2txVQVBgI7eAZSR17VD9SzAbAg==", "book"=>{"title"=>"aaaa", "body"=>""}, "commit"=>"Create book"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (4.7ms)[0m  [1m[32mINSERT INTO "books" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "aaaa"], ["body", ""], ["created_at", "2018-05-21 10:29:53.753809"], ["updated_at", "2018-05-21 10:29:53.753809"]]
+  [1m[35m (3.8ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/books/5
+Completed 302 Found in 22ms (ActiveRecord: 8.6ms)
+
+
+Started GET "/books/5" for 10.0.2.2 at 2018-05-21 10:29:53 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mBook Load (2.7ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering books/show.html.erb within layouts/application
+  Rendered books/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 260ms (Views: 227.4ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/books" for 10.0.2.2 at 2018-05-21 10:29:55 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (2.0ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  Rendered books/index.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 191ms (Views: 163.1ms | ActiveRecord: 2.0ms)
+
+
+Started POST "/books" for 10.0.2.2 at 2018-05-21 10:29:57 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"AH39if8Sr+YeW2UcHctvK0Rpsz3rH0QKSjSIsB2VdJLzM/eFGZmRVm3mI6xicghJzllhb8yP7RNbcNMnECVXgw==", "book"=>{"title"=>"", "body"=>"aa"}, "commit"=>"Create book"}
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.3ms)
+
+
+  
+ActionController::UrlGenerationError (No route matches {:action=>"show", :controller=>"books", :id=>nil}, missing required keys: [:id]):
+  
+app/controllers/books_controller.rb:32:in `create'
+Started POST "/books" for 10.0.2.2 at 2018-05-21 10:30:23 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"X36Flz/QDKEbqc/+HIWHpYTcYcNODQp01tuVeSIro383/4RkaASKCL4zWjRprCq//j5E9O9nbwhWf3vNDTiSEQ==", "book"=>{"title"=>"", "body"=>""}, "commit"=>"Create book"}
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.3ms)
+
+
+  
+ActionController::UrlGenerationError (No route matches {:action=>"show", :controller=>"books", :id=>nil}, missing required keys: [:id]):
+  
+app/controllers/books_controller.rb:32:in `create'
+Started POST "/books" for 10.0.2.2 at 2018-05-21 10:32:23 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"X36Flz/QDKEbqc/+HIWHpYTcYcNODQp01tuVeSIro383/4RkaASKCL4zWjRprCq//j5E9O9nbwhWf3vNDTiSEQ==", "book"=>{"title"=>"", "body"=>"aa"}, "commit"=>"Create book"}
+  [1m[35m (0.4ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.5ms)
+
+
+  
+ActionController::UrlGenerationError (No route matches {:action=>"show", :controller=>"books", :id=>nil}, missing required keys: [:id]):
+  
+app/controllers/books_controller.rb:32:in `create'
+Started POST "/books" for 10.0.2.2 at 2018-05-21 10:34:51 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by BooksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"X36Flz/QDKEbqc/+HIWHpYTcYcNODQp01tuVeSIro383/4RkaASKCL4zWjRprCq//j5E9O9nbwhWf3vNDTiSEQ==", "book"=>{"title"=>"", "body"=>"aa"}, "commit"=>"Create book"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Redirected to http://localhost:3000/books
+Completed 302 Found in 68ms (ActiveRecord: 10.7ms)
+
+
+Started GET "/books" for 10.0.2.2 at 2018-05-21 10:34:53 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (1.8ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  Rendered books/index.html.erb within layouts/application (56.4ms)
+Completed 200 OK in 804ms (Views: 776.0ms | ActiveRecord: 1.8ms)
+
+
+Started POST "/books" for 10.0.2.2 at 2018-05-21 10:34:56 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nNGsqthhxTVcb/gWAZONcme73Q5xsdU1KB8p7PFGFmv0UK1Zj7VDnPn1bdx0uiBoHVn4OdDbsEmou8dY3lUnBQ==", "book"=>{"title"=>"", "body"=>""}, "commit"=>"Create book"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Redirected to http://localhost:3000/books
+Completed 302 Found in 7ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/books" for 10.0.2.2 at 2018-05-21 10:34:56 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (2.6ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  Rendered books/index.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 271ms (Views: 235.9ms | ActiveRecord: 2.6ms)
+
+
+Started POST "/books" for 10.0.2.2 at 2018-05-21 10:34:58 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"mFGNTpZ8TTapCU766SP/Qny+tOCQNT4CjVwo3RDQMpPw0Iy9wajLnwyT2zCcClJYBlyR1zFfW34N+MZpP8MD/Q==", "book"=>{"title"=>"", "body"=>""}, "commit"=>"Create book"}
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Redirected to http://localhost:3000/books
+Completed 302 Found in 11ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/books" for 10.0.2.2 at 2018-05-21 10:34:58 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (1.8ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  Rendered books/index.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 262ms (Views: 229.9ms | ActiveRecord: 1.8ms)
+
+
+Started POST "/books" for 10.0.2.2 at 2018-05-21 10:35:04 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"I6pF+hkbFt3PnidOtk2aCxNkDV9bDEYT64cTEkhoV0hLK0QJTs+QdGoEsoTDZDcRaYYoaPpmI29rI/2mZ3tmJg==", "book"=>{"title"=>"aa", "body"=>"aa"}, "commit"=>"Create book"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (5.5ms)[0m  [1m[32mINSERT INTO "books" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "aa"], ["body", "aa"], ["created_at", "2018-05-21 10:35:04.628953"], ["updated_at", "2018-05-21 10:35:04.628953"]]
+  [1m[35m (3.9ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/books/6
+Completed 302 Found in 21ms (ActiveRecord: 9.5ms)
+
+
+Started GET "/books/6" for 10.0.2.2 at 2018-05-21 10:35:04 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mBook Load (2.4ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering books/show.html.erb within layouts/application
+  Rendered books/show.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 268ms (Views: 216.9ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/books" for 10.0.2.2 at 2018-05-21 10:35:05 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (3.6ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  Rendered books/index.html.erb within layouts/application (11.5ms)
+Completed 200 OK in 295ms (Views: 258.0ms | ActiveRecord: 3.6ms)
+
+
+Started POST "/books" for 10.0.2.2 at 2018-05-21 10:35:13 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"V2A9VCNYa/LRkGQ2ZZtctGd4BptocZUdADsFaqbRnxo/4TyndIztW3QK8fwQsvGuHZojrMkb8GGAn+veicKudA==", "book"=>{"title"=>"aa", "body"=>""}, "commit"=>"Create book"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Redirected to http://localhost:3000/books
+Completed 302 Found in 10ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/books" for 10.0.2.2 at 2018-05-21 10:35:13 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (1.4ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  Rendered books/index.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 256ms (Views: 225.6ms | ActiveRecord: 1.4ms)
+
+
+Started POST "/books" for 10.0.2.2 at 2018-05-21 10:35:31 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XkLsd5QvCsXiNzD7+lb1may++a2hejMt7xn5S4mBkic2w+2Ew/uMbEetpTGPf1iD1lzcmgAQVlFvvRf/ppKjSQ==", "book"=>{"title"=>"", "body"=>""}, "commit"=>"Create book"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Redirected to http://localhost:3000/books
+Completed 302 Found in 8ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/books" for 10.0.2.2 at 2018-05-21 10:35:31 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (2.0ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  Rendered books/index.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 245ms (Views: 215.5ms | ActiveRecord: 2.0ms)
+
+
+Started POST "/books" for 10.0.2.2 at 2018-05-21 10:35:32 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"oGfdfcpn5kX7ZxaobgAgmYGLzbpPj9XEX65HgNBFscXI5tyOnbNg7F79g2IbKY2D+2noje7lsLjfCqk0/1aAqw==", "book"=>{"title"=>"", "body"=>""}, "commit"=>"Create book"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Redirected to http://localhost:3000/books
+Completed 302 Found in 8ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/books" for 10.0.2.2 at 2018-05-21 10:35:32 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (1.9ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  Rendered books/index.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 249ms (Views: 222.7ms | ActiveRecord: 1.9ms)
+
+
+Started POST "/books" for 10.0.2.2 at 2018-05-21 10:35:33 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"z08BV/CN/Y682NQW/XmFWVonq7vbOxoooK4iu5l1TsSnzgCkp1l7JxlCQdyIUChDIMWOjHpRf1QgCswPtmZ/qg==", "book"=>{"title"=>"", "body"=>""}, "commit"=>"Create book"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Redirected to http://localhost:3000/books
+Completed 302 Found in 8ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/books" for 10.0.2.2 at 2018-05-21 10:35:33 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (1.9ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  Rendered books/index.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 232ms (Views: 204.0ms | ActiveRecord: 1.9ms)
+
+
+Started POST "/books" for 10.0.2.2 at 2018-05-21 10:35:33 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"L5RBXBEGvirPiZLFyyJYxZk4TlLPpeByBY32DYL9Ai9HFUCvRtI4g2oTBw++C/Xf49prZW7PhQ6FKRi5re4zQQ==", "book"=>{"title"=>"", "body"=>""}, "commit"=>"Create book"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Redirected to http://localhost:3000/books
+Completed 302 Found in 6ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/books" for 10.0.2.2 at 2018-05-21 10:35:33 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (2.3ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  Rendered books/index.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 230ms (Views: 204.4ms | ActiveRecord: 2.3ms)
+
+
+Started POST "/books" for 10.0.2.2 at 2018-05-21 10:35:34 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ch/8FzNy1BpYT+dXxooSpGZRmp2ebgKrUK7HYp30K8pinv3kZKZSs/3Vcp2zo7++HLO/qj8EZ9fQCinWsucapA==", "book"=>{"title"=>"", "body"=>""}, "commit"=>"Create book"}
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Redirected to http://localhost:3000/books
+Completed 302 Found in 8ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/books" for 10.0.2.2 at 2018-05-21 10:35:34 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (2.2ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  Rendered books/index.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 240ms (Views: 207.8ms | ActiveRecord: 2.2ms)
+
+
+Started POST "/books" for 10.0.2.2 at 2018-05-21 10:35:34 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3aSJ+IELlXvRd+BqXRtS++e4lz3cK/i2cLuekZkKkW21JYgL1t8T0nTtdaAoMv/hnVqyCn1BncrwH3AlthmgAw==", "book"=>{"title"=>"", "body"=>""}, "commit"=>"Create book"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Redirected to http://localhost:3000/books
+Completed 302 Found in 10ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/books" for 10.0.2.2 at 2018-05-21 10:35:34 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (2.4ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  Rendered books/index.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 279ms (Views: 247.0ms | ActiveRecord: 2.4ms)
+
+
+Started POST "/books" for 10.0.2.2 at 2018-05-21 10:35:35 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"p3/0nNq9h/3KM18gPX20LAul1ViDhr6eQAO0xs0Jst7P/vVvjWkBVG+pyupIVBk2cUfwbyLs2+LAp1py4hqDsA==", "book"=>{"title"=>"", "body"=>""}, "commit"=>"Create book"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+Redirected to http://localhost:3000/books
+Completed 302 Found in 11ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/books" for 10.0.2.2 at 2018-05-21 10:35:35 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (2.0ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  Rendered books/index.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 287ms (Views: 249.2ms | ActiveRecord: 2.0ms)
+
+
+Started POST "/books" for 10.0.2.2 at 2018-05-21 10:35:36 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"p9ZkDZOeZ3rPP80I9fZ6t1ymJq2vkqNnT0F+Ktr/kgnPV2X+xErh02qlWMKA39etJkQDmg74xhvP5ZCe9eyjZw==", "book"=>{"title"=>"", "body"=>""}, "commit"=>"Create book"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Redirected to http://localhost:3000/books
+Completed 302 Found in 11ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/books" for 10.0.2.2 at 2018-05-21 10:35:36 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (2.2ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  Rendered books/index.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 238ms (Views: 209.7ms | ActiveRecord: 2.2ms)
+
+
+Started POST "/books" for 10.0.2.2 at 2018-05-21 10:35:36 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"cTs1ophsa3tickbn6vGoDi38t9VnlDoyxy/Mzz3sq8MZujRRz7jt0sfo0y2f2AUUVx6S4sb+X05HiyJ7Ev+arQ==", "book"=>{"title"=>"", "body"=>""}, "commit"=>"Create book"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Redirected to http://localhost:3000/books
+Completed 302 Found in 7ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/books" for 10.0.2.2 at 2018-05-21 10:35:36 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (2.5ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  Rendered books/index.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 225ms (Views: 190.1ms | ActiveRecord: 2.5ms)
+
+

@@ -1,7 +1,7 @@
 class BooksController < ApplicationController
   
   def index
-      @boo = Book.all
+      @books = Book.all
       @book = Book.new
   end
 
@@ -18,7 +18,9 @@ class BooksController < ApplicationController
 
   def update
        book = Book.find(params[:id])
-       book.update(book_params)
+        if book.update(book_params)
+          flash[:notice] = "投稿を編集しました"
+        end
        redirect_to book_path(book)
   end
 
@@ -26,8 +28,10 @@ class BooksController < ApplicationController
       book = Book.new(book_params)
       if book.save
       flash[:notice] = "投稿を作成しました"
-      end
       redirect_to book_path(book)
+      else
+      redirect_to books_path
+      end
   end
 
   def top
